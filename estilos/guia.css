@@ -124,11 +124,8 @@ header .portada-ipasme img{
 	width: 100%;
 }
 
-.contenedor .contenido > div img{
-	width: 100%;
-	height: auto;
-	justify-content: center;
-	align-items: center;
+.contenedor .contenido > div p{
+	padding: 15px;
 }
 
 .contenedor .section{
