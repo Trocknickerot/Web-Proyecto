@@ -122,10 +122,12 @@ header .portada-ipasme img{
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, auto);
 	width: 100%;
+	gap: 15px;
 }
 
 .contenedor .contenido > div p{
-	padding: 15px;
+	padding: 20px;
+	color: blue;
 }
 
 .contenedor .section{
