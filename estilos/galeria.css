@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+	width: 100%;
+	margin: auto;
+}
+
+header {
+	background: #787cbc;
+}
+
+.navbar{
+	width: 90%;
+	max-width: 1200px;
+}
+
+.navbar ul{
+	list-style: none;
+}
+
+.navbar-ul > li{
+	position: relative;
+	display: inline-block;
+}
+
+.navbar-ul > li > a{
+	display: block;
+	padding: 20px 25px;
+	color:#fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.navbar-ul li:hover{
+	background: #6469BC;
+}
+
+.submenu {
+	position: absolute;
+	visibility: hidden;
+	list-style: none;
+	width: 100%;
+	background-color: #787cbc;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.navbar li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu li:hover{
+	background: #6469BC;
+}
+
+.submenu li a{
+	font-weight: bold;
+	display: block;
+	color: #fff;
+	padding: 20px 25px;
+	text-decoration: none;
+}
+
+header .portada-ipasme img{
+	width: 100%;
+}
+
+.contenedor .busqueda{
+    position: relative;
+}
+
+.contenedor .busqueda input{
+    width: 95%;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+.contenedor .busqueda button{
+    background-color: #6469BC;
+    padding: 10px 15px;
+    position: absolute;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contenedor .busqueda button:hover{
+    background: #787cbc;
+}
+
+.contenedor div > h1{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 42px;
+	padding: 15px;
+	color: #041c74;
+}
+
+.contenedor .contenido{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, auto);
+	padding: 15px;
+}
+
+.contenedor .contenido div > h2{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+	padding: 10px;
+}
+
+.contenedor .contenido div > p{
+	text-align: justify;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-style: italic;
+	padding: 20px;
+}
+
+.contenedor .contenido div > img{
+	width: 350px;
+	height: auto;
+	display: flex;
+	margin: auto;
+	border: 1px solid #000;
+	padding: 5px;
+}
+
